@@ -8,7 +8,8 @@
 ##### Additional prefixed categories for Foundation framework __without__ libffi and optional swizzle.
 
 
-`SHFoundationAdditions` allows you to use auto cleaned blocks for KVO (will get rid of observers once deallocated) without any hacks or libffi dependencies as well as additional enumeration blocks as protocols on the common collection classes 
+`SHFoundationAdditions` adds enumeration and KVO blocks without any hacks or libffi dependencies.
+Observers will remove themselves once the object gets deallocated. You can toggle it off. 
 
 > This pod is part of a many components covering to plug the holes missing from Foundation, UIKit, CoreLocation, GameKit, MapKit and other aspects of an iOS application's architecture. 
 
