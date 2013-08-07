@@ -1,4 +1,4 @@
-# SHUIKitBlocks
+# SHFoundationAdditions
 
 [![Build Status](https://travis-ci.org/seivan/SHFoundationAdditions.png?branch=master)](https://travis-ci.org/seivan/SHFoundationAdditions)
 [![Version](http://cocoapod-badges.herokuapp.com/v/SHFoundationAdditions/badge.png)](http://cocoadocs.org/docsets/SHFoundationAdditions)
@@ -8,7 +8,8 @@
 ##### Additional prefixed categories for Foundation framework __without__ libffi and optional swizzle.
 
 
-`SHFoundationAdditions` allows you to use blocks instead of delegates for entire Key Value Observer operations without any hacks or libffi dependencies as well as addition enumeration blocks as protocol on the common collection classes 
+`SHFoundationAdditions` adds enumeration and KVO blocks without any hacks or libffi dependencies.
+Observers will remove themselves once the object gets deallocated. You can toggle it off. 
 
 > This pod is part of a many components covering to plug the holes missing from Foundation, UIKit, CoreLocation, GameKit, MapKit and other aspects of an iOS application's architecture. 
 
