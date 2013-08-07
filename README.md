@@ -1,4 +1,4 @@
-# SHUIKitBlocks
+# SHFoundationAdditions
 
 [![Build Status](https://travis-ci.org/seivan/SHFoundationAdditions.png?branch=master)](https://travis-ci.org/seivan/SHFoundationAdditions)
 [![Version](http://cocoapod-badges.herokuapp.com/v/SHFoundationAdditions/badge.png)](http://cocoadocs.org/docsets/SHFoundationAdditions)
