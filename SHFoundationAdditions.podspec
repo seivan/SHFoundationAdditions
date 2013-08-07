@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 
   s.name         = name
   s.version      = version
-  s.summary      = "Additional prefixed categories for Foundation framework *without* libffi"
+  s.summary      = "Additional prefixed categories for the Foundation framework *without* libffi."
   s.description  = <<-DESC
 
                     Additional prefixed categories for Foundation framework *without* libffi with optional Swizzling (for KVO).
@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
                     * SHObjectUserInfo
 
                     Summary:
+                    * For Mac OSX >=8 and iOS >= 6. 
                     * Swizzle and junk free
                     * No need to clean up after - The blocks are self maintained.
                     * Blocks are referenced in a map with weak properties
