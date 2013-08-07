@@ -1,0 +1,10 @@
+platform :ios, '6.0' 
+pod 'SHFoundationAdditions', :path => '../'
+
+
+
+target :ExampleTests do
+  pod 'SHTestCaseAdditions'
+  pod 'SHFastEnumerationProtocols'
+  pod "KIF-next"
+end
