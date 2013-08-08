@@ -11,7 +11,7 @@
 `SHFoundationAdditions` adds enumeration and KVO blocks without any hacks or libffi dependencies.
 Observers will remove themselves once the object gets deallocated. You can toggle it off. 
 
-> This pod is part of a many components covering to plug the holes missing from Foundation, UIKit, CoreLocation, GameKit, MapKit and other aspects of an iOS application's architecture. 
+> This pod is part of many components covering to plug the holes missing from Foundation, UIKit, CoreLocation, GameKit, MapKit and other aspects of an iOS application's architecture. 
 
 - [SHUIKitBlocks](https://github.com/seivan/SHUIKitBlocks)
 - [SHTestCaseAdditions](https://github.com/seivan/SHTestCaseAdditions)
