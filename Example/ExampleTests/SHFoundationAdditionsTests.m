@@ -45,4 +45,10 @@
 
 }
 
+-(void)testSHInvocation; {
+  STAssertTrue([NSInvocation respondsToSelector:@selector(SH_performInvocationOnTarget:withSelector:andArguments:)], nil);
+  
+}
+
+
 @end
