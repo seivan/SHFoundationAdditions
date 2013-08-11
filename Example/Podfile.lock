@@ -1,13 +1,15 @@
 PODS:
   - KIF-next (2.0.0pre4)
   - SHFastEnumerationProtocols (1.2.0)
-  - SHFoundationAdditions (1.0.0):
+  - SHFoundationAdditions (1.1.0):
     - SHFastEnumerationProtocols (~> 1.2.0)
+    - SHInvocation (~> 0.9.0)
     - SHKeyValueObserverBlocks (~> 1.1.0)
     - SHObjectUserInfo (~> 1.1.0)
+  - SHInvocation (0.9.0)
   - SHKeyValueObserverBlocks (1.1.0)
   - SHObjectUserInfo (1.1.0)
-  - SHTestCaseAdditions (1.0.0)
+  - SHTestCaseAdditions (1.1.0)
 
 DEPENDENCIES:
   - KIF-next
@@ -22,9 +24,10 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   KIF-next: 1c59f919ceee5999373c875832101c2fb48b5f59
   SHFastEnumerationProtocols: 5dde0d343a6bf08bf43ec5db2e6dcd9505c50d06
-  SHFoundationAdditions: feb7daca1bde040368554cef4d3f8bccb2d3574a
+  SHFoundationAdditions: 35005576a19fe0f10bdadd93132cfbb1de463f21
+  SHInvocation: 8b41e15488128c766b5962d6dbc1a5fab6f2a741
   SHKeyValueObserverBlocks: 27efd0381eb1e96ae9e41a30e50b6200323b8d5d
   SHObjectUserInfo: 3dfe4af11a45c985088f613813705b8ebd3cc718
-  SHTestCaseAdditions: c19f82ab9f4963261ae1540eb1845146f24b2ff2
+  SHTestCaseAdditions: 0c64108c62ba04b01cb7d237a4cf6acf1176af45
 
 COCOAPODS: 0.22.3

@@ -2,12 +2,12 @@ Pod::Spec.new do |s|
   name           = "SHFoundationAdditions"
   url            = "https://github.com/seivan/#{name}"
   git_url        = "#{url}.git"
-  version        = "1.0.0"
+  version        = "1.1.0"
   source_files   = "#{name}/**/*.{h,m}"
 
   s.name         = name
   s.version      = version
-  s.summary      = "Additional prefixed categories for Foundation framework *without* libffi"
+  s.summary      = "Additional prefixed categories for the Foundation framework *without* libffi."
   s.description  = <<-DESC
 
                     Additional prefixed categories for Foundation framework *without* libffi with optional Swizzling (for KVO).
@@ -17,8 +17,10 @@ Pod::Spec.new do |s|
                     * SHKeyValueObserverBlocks
                     * SHFastEnumerationProtocols
                     * SHObjectUserInfo
+                    * SHInvocation
 
                     Summary:
+                    * For Mac OSX >=8 and iOS >= 6. 
                     * Swizzle and junk free
                     * No need to clean up after - The blocks are self maintained.
                     * Blocks are referenced in a map with weak properties
@@ -40,7 +42,8 @@ Pod::Spec.new do |s|
   s.dependency  "SHKeyValueObserverBlocks",   '~> 1.1.0'
   s.dependency  "SHFastEnumerationProtocols", '~> 1.2.0'
   s.dependency  "SHObjectUserInfo",           '~> 1.1.0'
-  
+  s.dependency  "SHInvocation",               '~> 0.9.0'
+
   s.ios.deployment_target = "6.0"
   s.osx.deployment_target = "10.8"
 
