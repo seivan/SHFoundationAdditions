@@ -9,7 +9,7 @@
 // SHFastEnumerationProtocols
 #define COCOAPODS_POD_AVAILABLE_SHFastEnumerationProtocols
 #define COCOAPODS_VERSION_MAJOR_SHFastEnumerationProtocols 1
-#define COCOAPODS_VERSION_MINOR_SHFastEnumerationProtocols 2
+#define COCOAPODS_VERSION_MINOR_SHFastEnumerationProtocols 3
 #define COCOAPODS_VERSION_PATCH_SHFastEnumerationProtocols 0
 
 // SHFoundationAdditions
