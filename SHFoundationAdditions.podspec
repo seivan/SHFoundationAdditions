@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
                     * SHKeyValueObserverBlocks
                     * SHFastEnumerationProtocols
                     * SHObjectUserInfo
+                    * SHInvocation
 
                     Summary:
                     * For Mac OSX >=8 and iOS >= 6. 
@@ -41,6 +42,7 @@ Pod::Spec.new do |s|
   s.dependency  "SHKeyValueObserverBlocks",   '~> 1.1.0'
   s.dependency  "SHFastEnumerationProtocols", '~> 1.2.0'
   s.dependency  "SHObjectUserInfo",           '~> 1.1.0'
+  s.dependency  "SHInvocation",               '~> 0.9.0'
   
   s.ios.deployment_target = "6.0"
   s.osx.deployment_target = "10.8"
