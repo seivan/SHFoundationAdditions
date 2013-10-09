@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   name           = "SHFoundationAdditions"
   url            = "https://github.com/seivan/#{name}"
   git_url        = "#{url}.git"
-  version        = "1.2.0"
+  version        = "1.3.0"
   source_files   = "#{name}/**/*.{h,m}"
 
   s.name         = name
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => git_url, :tag => version}
   
 
-  s.dependency  "SHKeyValueObserverBlocks",   '~> 1.1.0'
+  s.dependency  "SHKeyValueObserverBlocks",   '~> 1.2.0'
   s.dependency  "SHFastEnumerationProtocols", '~> 1.3.0'
   s.dependency  "SHObjectUserInfo",           '~> 1.1.0'
   s.dependency  "SHInvocation",               '~> 0.9.0'
