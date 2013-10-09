@@ -5,7 +5,7 @@
 [![Platform](http://cocoapod-badges.herokuapp.com/p/SHFoundationAdditions/badge.png)](http://cocoadocs.org/docsets/SHFoundationAdditions)
 
 
-##### Additional prefixed categories for Foundation framework __without__ libffi and optional swizzle.
+##### Additional prefixed categories for Foundation framework __without__ libffi and optional swizzle. Light weight and modular. 
 
 
 `SHFoundationAdditions` adds enumeration and KVO blocks without any hacks or libffi dependencies.
