@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   name           = "SHFoundationAdditions"
   url            = "https://github.com/seivan/#{name}"
   git_url        = "#{url}.git"
-  version        = "1.4.0"
+  version        = "2.0.0"
   source_files   = "#{name}/**/*.{h,m}"
 
   s.name         = name
