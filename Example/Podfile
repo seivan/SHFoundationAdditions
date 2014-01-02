@@ -1,9 +1,0 @@
-pod 'SHFoundationAdditions', :path => '../'
-
-
-
-target :ExampleTests do
-  pod 'SHTestCaseAdditions'
-  pod 'SHFastEnumerationProtocols'
-  pod "KIF-next"
-end

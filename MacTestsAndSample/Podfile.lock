@@ -1,0 +1,34 @@
+PODS:
+  - RSSwizzle (0.1.0)
+  - SHFastEnumerationProtocols (1.4.0)
+  - SHFoundationAdditions (1.4.0):
+    - SHFastEnumerationProtocols (~> 1.4.0)
+    - SHInvocation (~> 0.9.1)
+    - SHKeyValueObserverBlocks (~> 2.0.1)
+    - SHObjectUserInfo (~> 1.2.0)
+  - SHInvocation (0.9.1)
+  - SHKeyValueObserverBlocks (2.0.1):
+    - RSSwizzle (~> 0.1.0)
+  - SHObjectUserInfo (1.2.0)
+  - SHTestCaseAdditions (1.4.1):
+    - SHTestCaseAdditions/XCTest
+  - SHTestCaseAdditions/XCTest (1.4.1)
+
+DEPENDENCIES:
+  - SHFoundationAdditions (from `../`)
+  - SHTestCaseAdditions
+
+EXTERNAL SOURCES:
+  SHFoundationAdditions:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RSSwizzle: 41c280b15547f7c94f1273111fe4ce29d5d14e3a
+  SHFastEnumerationProtocols: 39df5add054950c7536b144602720d8e5c5870cb
+  SHFoundationAdditions: a029cee180f5f7e1a9472c8b71454364cc8488db
+  SHInvocation: d16949f586751c7ec63f49ad0753afc3d9d980bc
+  SHKeyValueObserverBlocks: 9d58c41058383f4577b44fdf75682f870406360c
+  SHObjectUserInfo: 33f90c63c2a1404fa677606bde5aa2465f202bca
+  SHTestCaseAdditions: ff32e10731f37effd08c254e538c3e7998f74921
+
+COCOAPODS: 0.28.0
