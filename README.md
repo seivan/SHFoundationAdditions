@@ -7,11 +7,7 @@
 
 ##### Additional prefixed categories for Foundation framework __without__ libffi and optional swizzle. Light weight and modular. 
 
-
-`SHFoundationAdditions` adds enumeration and KVO blocks without any hacks or libffi dependencies.
-Observers will remove themselves once the object gets deallocated. You can toggle it off. 
-
-> This pod is part of many components covering to plug the holes missing from Foundation, UIKit, CoreLocation, GameKit, MapKit and other aspects of an iOS application's architecture. 
+> This pod consist of several components as categories to improve Foundation.
 
 - [SHUIKitBlocks](https://github.com/seivan/SHUIKitBlocks)
 - [SHTestCaseAdditions](https://github.com/seivan/SHTestCaseAdditions)
