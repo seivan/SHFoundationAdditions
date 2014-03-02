@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   name           = "SHFoundationAdditions"
   url            = "https://github.com/seivan/#{name}"
   git_url        = "#{url}.git"
-  version        = "1.4.0"
+  version        = "2.1.0"
   source_files   = "#{name}/**/*.{h,m}"
 
   s.name         = name
@@ -40,9 +40,9 @@ Pod::Spec.new do |s|
   
 
   s.dependency  "SHKeyValueObserverBlocks",   '~> 2.0.1'
-  s.dependency  "SHFastEnumerationProtocols", '~> 1.4.0'
+  s.dependency  "SHFastEnumerationProtocols", '~> 1.5.0'
   s.dependency  "SHObjectUserInfo",           '~> 1.2.0'
-  s.dependency  "SHInvocation",               '~> 0.9.1'
+  s.dependency  "SHInvocation",               '~> 0.9.2'
 
   s.ios.deployment_target = "6.0"
   s.osx.deployment_target = "10.8"
