@@ -4,7 +4,7 @@
 [![Version](https://cocoapod-badges.herokuapp.com/v/SHInvocation/badge.png)](http://cocoadocs.org/docsets/SHInvocation)
 [![Platform](https://cocoapod-badges.herokuapp.com/p/SHInvocation/badge.png)](http://cocoadocs.org/docsets/SHInvocation)
 
-> This pod is used by [`SHFoundationAdditions`](https://github.com/seivan/SHFoundationAdditions) as part of many components covering to plug the holes missing from Foundation, UIKit, CoreLocation, GameKit, MapKit and other aspects of an iOS application's architecture.
+> This pod is used by [`SHFoundationAdditions`](https://github.com/seivan/SHFoundationAdditions) as part of several components improving Foundation, UIKit, CoreLocation, GameKit, MapKit and other aspects of an iOS application's architecture
 
 Overview
 --------

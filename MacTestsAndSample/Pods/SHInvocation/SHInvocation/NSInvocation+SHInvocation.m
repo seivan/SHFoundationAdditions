@@ -16,8 +16,6 @@
   
   NSParameterAssert(theSelector);
   NSParameterAssert(theTarget);
-  NSParameterAssert(theArguments);
-  NSParameterAssert(theArguments.count > 0);
   
   BOOL didInvoke = NO;
   if([theTarget respondsToSelector:theSelector]){
