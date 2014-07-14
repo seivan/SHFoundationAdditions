@@ -25,7 +25,10 @@ pod 'SHFoundationAdditions'
 | Library        | Tests           | Version  | Platform  | License |
 | ------------- |:-------------:| -----:|  -----:| -----:| 
 | 
-[SHKeyValueObserverBlocks](https://github.com/seivan/SHKeyValueObserverBlocks)| [![CI Status](https://img.shields.io/travis/seivan/SHTransitionBlocks.svg?style=flat)](https://travis-ci.org/seivan/SHTransitionBlocks)| [![Version](https://img.shields.io/cocoapods/v/SHTransitionBlocks.svg?style=flat)](http://cocoadocs.org/docsets/SHTransitionBlocks) |[![Platform](https://img.shields.io/cocoapods/p/SHTransitionBlocks.svg?style=flat)](http://cocoadocs.org/docsets/SHTransitionBlocks) 
+[SHKeyValueObserverBlocks](https://github.com/seivan/SHKeyValueObserverBlocks)| 
+[![CI Status](https://img.shields.io/travis/seivan/SHTransitionBlocks.svg?style=flat)](https://travis-ci.org/seivan/SHTransitionBlocks)| 
+[![Version](https://img.shields.io/cocoapods/v/SHTransitionBlocks.svg?style=flat)](http://cocoadocs.org/docsets/SHTransitionBlocks) |
+[![Platform](https://img.shields.io/cocoapods/p/SHTransitionBlocks.svg?style=flat)](http://cocoadocs.org/docsets/SHTransitionBlocks) 
 |
 [SHFastEnumerationProtocols](https://github.com/seivan/SHFastEnumerationProtocols)| [![CI Status](https://img.shields.io/travis/seivan/SHTransitionBlocks.svg?style=flat)](https://travis-ci.org/seivan/SHTransitionBlocks)| [![Version](https://img.shields.io/cocoapods/v/SHTransitionBlocks.svg?style=flat)](http://cocoadocs.org/docsets/SHTransitionBlocks) | [![Platform](https://img.shields.io/cocoapods/p/SHTransitionBlocks.svg?style=flat)](http://cocoadocs.org/docsets/SHTransitionBlocks) 
 | 
