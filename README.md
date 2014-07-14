@@ -1,8 +1,9 @@
 # SHFoundationAdditions
 
-[![Build Status](https://travis-ci.org/seivan/SHFoundationAdditions.png?branch=master)](https://travis-ci.org/seivan/SHFoundationAdditions)
-[![Version](https://cocoapod-badges.herokuapp.com/v/SHFoundationAdditions/badge.png)](http://cocoadocs.org/docsets/SHFoundationAdditions)
-[![Platform](https://cocoapod-badges.herokuapp.com/p/SHFoundationAdditions/badge.png)](http://cocoadocs.org/docsets/SHFoundationAdditions)
+[![CI Status](https://img.shields.io/travis/seivan/SHTransitionBlocks.svg?style=flat)](https://travis-ci.org/seivan/SHFoundationAdditions)
+[![Version](https://img.shields.io/cocoapods/v/SHTransitionBlocks.svg?style=flat)](http://cocoadocs.org/docsets/SHFoundationAdditions)
+[![Platform](https://img.shields.io/cocoapods/p/SHTransitionBlocks.svg?style=flat)](http://cocoadocs.org/docsets/SHFoundationAdditions)
+[![License](https://img.shields.io/cocoapods/l/SHTransitionBlocks.svg?style=flat)](http://cocoadocs.org/docsets/SHFoundationAdditions)
 
 
 ##### Additional prefixed categories for Foundation framework __without__ libffi and optional swizzle. Light weight and modular. 
@@ -23,10 +24,10 @@ pod 'SHFoundationAdditions'
 
 | Library        | Tests           | Version  | Platform  |
 | ------------- |:-------------:| -----:|  -----:| 
-| [SHKeyValueObserverBlocks](https://github.com/seivan/SHKeyValueObserverBlocks)| [![Build Status](https://travis-ci.org/seivan/SHKeyValueObserverBlocks.png?branch=master)](https://travis-ci.org/seivan/SHKeyValueObserverBlocks)| [![Version](https://cocoapod-badges.herokuapp.com/v/SHKeyValueObserverBlocks/badge.png)](http://cocoadocs.org/docsets/SHKeyValueObserverBlocks) | [![Platform](https://cocoapod-badges.herokuapp.com/p/SHKeyValueObserverBlocks/badge.png)](http://cocoadocs.org/docsets/SHKeyValueObserverBlocks) |
-| [SHFastEnumerationProtocols](https://github.com/seivan/SHFastEnumerationProtocols)| [![Build Status](https://travis-ci.org/seivan/SHFastEnumerationProtocols.png?branch=master)](https://travis-ci.org/seivan/SHFastEnumerationProtocols)| [![Version](https://cocoapod-badges.herokuapp.com/v/SHFastEnumerationProtocols/badge.png)](http://cocoadocs.org/docsets/SHFastEnumerationProtocols) | [![Platform](https://cocoapod-badges.herokuapp.com/p/SHFastEnumerationProtocols/badge.png)](http://cocoadocs.org/docsets/SHFastEnumerationProtocols) |
-| [SHObjectUserInfo](https://github.com/seivan/SHObjectUserInfo)| [![Build Status](https://travis-ci.org/seivan/SHObjectUserInfo.png?branch=master)](https://travis-ci.org/seivan/SHObjectUserInfo)| [![Version](https://cocoapod-badges.herokuapp.com/v/SHObjectUserInfo/badge.png)](http://cocoadocs.org/docsets/SHObjectUserInfo) | [![Platform](https://cocoapod-badges.herokuapp.com/p/SHObjectUserInfo/badge.png)](http://cocoadocs.org/docsets/SHObjectUserInfo) |
-| [SHInvocation](https://github.com/seivan/SHInvocation)| [![Build Status](https://travis-ci.org/seivan/SHInvocation.png?branch=master)](https://travis-ci.org/seivan/SHInvocation)| [![Version](https://cocoapod-badges.herokuapp.com/v/SHInvocation/badge.png)](http://cocoadocs.org/docsets/SHInvocation) | [![Platform](https://cocoapod-badges.herokuapp.com/p/SHInvocation/badge.png)](http://cocoadocs.org/docsets/SHInvocation) |
+| [SHKeyValueObserverBlocks](https://github.com/seivan/SHKeyValueObserverBlocks)| [![CI Status](https://img.shields.io/travis/seivan/SHTransitionBlocks.svg?style=flat)](https://travis-ci.org/seivan/SHTransitionBlocks)| [![Version](https://img.shields.io/cocoapods/v/SHTransitionBlocks.svg?style=flat)](http://cocoadocs.org/docsets/SHTransitionBlocks) | [![Platform](https://cocoapod-badges.herokuapp.com/p/SHKeyValueObserverBlocks/badge.png)](http://cocoadocs.org/docsets/SHKeyValueObserverBlocks) |
+| [SHFastEnumerationProtocols](https://github.com/seivan/SHFastEnumerationProtocols)| [![CI Status](https://img.shields.io/travis/seivan/SHTransitionBlocks.svg?style=flat)](https://travis-ci.org/seivan/SHTransitionBlocks)| [![Version](https://img.shields.io/cocoapods/v/SHTransitionBlocks.svg?style=flat)](http://cocoadocs.org/docsets/SHTransitionBlocks) | [![Platform](https://cocoapod-badges.herokuapp.com/p/SHFastEnumerationProtocols/badge.png)](http://cocoadocs.org/docsets/SHFastEnumerationProtocols) |
+| [SHObjectUserInfo](https://github.com/seivan/SHObjectUserInfo)| [![CI Status](https://img.shields.io/travis/seivan/SHTransitionBlocks.svg?style=flat)](https://travis-ci.org/seivan/SHTransitionBlocks)| [![Version](https://img.shields.io/cocoapods/v/SHTransitionBlocks.svg?style=flat)](http://cocoadocs.org/docsets/SHTransitionBlocks) | [![Platform](https://cocoapod-badges.herokuapp.com/p/SHObjectUserInfo/badge.png)](http://cocoadocs.org/docsets/SHObjectUserInfo) |
+| [SHInvocation](https://github.com/seivan/SHInvocation)| [![CI Status](https://img.shields.io/travis/seivan/SHTransitionBlocks.svg?style=flat)](https://travis-ci.org/seivan/SHTransitionBlocks)| [![Version](https://img.shields.io/cocoapods/v/SHTransitionBlocks.svg?style=flat)](http://cocoadocs.org/docsets/SHTransitionBlocks) | [![Platform](https://cocoapod-badges.herokuapp.com/p/SHInvocation/badge.png)](http://cocoadocs.org/docsets/SHInvocation) |
 
 ##Import
 
