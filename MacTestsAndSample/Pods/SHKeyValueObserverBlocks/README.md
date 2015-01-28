@@ -1,11 +1,14 @@
 #SHKeyValueObserverBlocks
 
-[![Build Status](https://travis-ci.org/seivan/SHKeyValueObserverBlocks.png?branch=master)](https://travis-ci.org/seivan/SHKeyValueObserverBlocks)
-[![Version](https://cocoapod-badges.herokuapp.com/v/SHKeyValueObserverBlocks/badge.png)](http://cocoadocs.org/docsets/SHKeyValueObserverBlocks)
-[![Platform](https://cocoapod-badges.herokuapp.com/p/SHKeyValueObserverBlocks/badge.png)](http://cocoadocs.org/docsets/SHKeyValueObserverBlocks)
+[![CI Status](https://img.shields.io/travis/seivan/SHKeyValueObserverBlocks.svg?style=flat)](https://travis-ci.org/seivan/SHKeyValueObserverBlocks)
+[![Version](https://img.shields.io/cocoapods/v/SHKeyValueObserverBlocks.svg?style=flat)](http://cocoadocs.org/docsets/SHKeyValueObserverBlocks)
+[![Platform](https://img.shields.io/cocoapods/p/SHKeyValueObserverBlocks.svg?style=flat)](http://cocoadocs.org/docsets/SHKeyValueObserverBlocks)
+[![License](https://img.shields.io/cocoapods/l/SHKeyValueObserverBlocks.svg?style=flat)](http://cocoadocs.org/docsets/SHKeyValueObserverBlocks)
 
-> This pod is used by [`SHFoundationAdditions`](https://github.com/seivan/SHFoundationAdditions) as part of many components covering to plug the holes missing from Foundation.
-There is also [`for UIKit`](https://github.com/seivan/SHUIKitBlocks) and others on the way; CoreLocation, GameKit, MapKit and other aspects of an iOS application's architecture.
+> This pod is used by [`SHFoundationAdditions`](https://github.com/seivan/SHFoundationAdditions) as part of several components improving Foundation, UIKit, CoreLocation, GameKit, MapKit and other aspects of an iOS application's architecture
+
+There is also [`for UIKit`](https://github.com/seivan/SHUIKitBlocks) for extending UIKit with block alternatives to most components
+
 
 ##Overview
 
@@ -40,8 +43,8 @@ or
   NSString * identifier = [self SH_addObserverForKeyPath:path 
                                                   block:^(
                                                   NSKeyValueChange changeType, 
-                                                  NSObject * oldValue, 
-                                                  NSObject * newValue, 
+                                                  id oldValue, 
+                                                  id newValue, 
                                                   NSIndexPath *indexPath) {
     switch (changeType) {
       case NSKeyValueChangeSetting:
@@ -54,7 +57,7 @@ or
         NSLog(@"Removal %@", oldValue);
         break;
       case NSKeyValueChangeReplacement:
-        NSLog(@"ChangeReplacement %@", newValue);
+        NSLog(@"ChangeReplacement %@ with %@", oldValue, newValue);
         break;
       default:
         break;
@@ -79,11 +82,11 @@ NSString * identifier =  [self SH_setBindingUniObserverKeyPath:@"playersDictiona
                                                       toObject:self
                                                    withKeyPath:@"othersDictionary"
                                            transformValueBlock:^id(
-                                           NSObject *object, 
+                                           id object, 
                                            NSString *keyPath, 
-                                           NSObject * newValue, 
+                                           id newValue, 
                                            BOOL *shouldAbort) {
-    return newValue.mutableCopy ;
+    return ((NSObject *)newValue).mutableCopy ;
   }];
 
 ```
@@ -113,15 +116,15 @@ NSArray * identifiers = [self.model SH_setBindingObserverKeyPath:@"errors"
 #pragma mark - Block Definitions
 
 typedef void (^SHKeyValueObserverSplatBlock)(NSKeyValueChange changeType,
-                                             id<NSObject> oldValue, id<NSObject> newValue,
+                                             id oldValue, id newValue,
                                              NSIndexPath * indexPath);
 
 typedef void (^SHKeyValueObserverDefaultBlock)(NSString * keyPath,
                                                NSDictionary * change);
 
-typedef id(^SHKeyValueObserverBindingTransformBlock)(NSObject * object,
+typedef id(^SHKeyValueObserverBindingTransformBlock)(id object,
                                                      NSString * keyPath,
-                                                     id<NSObject> newValue,
+                                                     id newValue,
                                                      BOOL *shouldAbort);
 
 @interface NSObject (SHKeyValueObserverBlocks)

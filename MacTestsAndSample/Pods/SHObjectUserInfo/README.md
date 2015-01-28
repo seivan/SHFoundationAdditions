@@ -1,8 +1,9 @@
 SHObjectUserInfo
 ==========
-[![Build Status](https://travis-ci.org/seivan/SHObjectUserInfo.png?branch=master)](https://travis-ci.org/seivan/SHObjectUserInfo)
-[![Version](https://cocoapod-badges.herokuapp.com/v/SHObjectUserInfo/badge.png)](http://cocoadocs.org/docsets/SHObjectUserInfo)
-[![Platform](https://cocoapod-badges.herokuapp.com/p/SHObjectUserInfo/badge.png)](http://cocoadocs.org/docsets/SHObjectUserInfo)
+[![CI Status](https://img.shields.io/travis/seivan/SHObjectUserInfo.svg?style=flat)](https://travis-ci.org/seivan/SHObjectUserInfo)
+[![Version](https://img.shields.io/cocoapods/v/SHObjectUserInfo.svg?style=flat)](http://cocoadocs.org/docsets/SHObjectUserInfo)
+[![Platform](https://img.shields.io/cocoapods/p/SHObjectUserInfo.svg?style=flat)](http://cocoadocs.org/docsets/SHObjectUserInfo)
+[![License](https://img.shields.io/cocoapods/l/SHObjectUserInfo.svg?style=flat)](http://cocoadocs.org/docsets/SHObjectUserInfo)
 
 > This pod is used by [`SHFoundationAdditions`](https://github.com/seivan/SHFoundationAdditions) as part of many components covering to plug the holes missing from Foundation, UIKit, CoreLocation, GameKit, MapKit and other aspects of an iOS application's architecture.
 
