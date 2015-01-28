@@ -46,7 +46,6 @@ typedef NS_OPTIONS(NSUInteger, SHKeyValueObserverBlockType) {
   keyValueObserver.bindingsIdentifiers = [NSMapTable weakToStrongObjectsMapTable];
   keyValueObserver.bindingTargets = [NSHashTable weakObjectsHashTable];
   return keyValueObserver;
-  
 }
 
 -(BOOL)isObserving; {
@@ -235,12 +234,9 @@ typedef NS_OPTIONS(NSUInteger, SHKeyValueObserverBlockType) {
          }
          
          
-         // You MUST always cast implementation to the correct function pointer.
          int (*originalIMP)(__unsafe_unretained id, SEL);
          originalIMP = (__typeof(originalIMP))[swizzleInfo getOriginalImplementation];
-         // Calling original implementation.
          originalIMP(self,selector);
-         // Returning modified return value.
          
        };
      }
@@ -346,7 +342,16 @@ typedef NS_OPTIONS(NSUInteger, SHKeyValueObserverBlockType) {
   [theIdentifiers enumerateObjectsUsingBlock:^(NSString * identifier, __unused NSUInteger idx, __unused BOOL *stop) {
     SHKeyValueObserverBlockHandler * blockHandler = weakSelf.SH_keyValueObserver.blocks[identifier];
     [blockHandler.keyPaths enumerateObjectsUsingBlock:^(NSString * keyPath, __unused NSUInteger idx, __unused BOOL *stop) {
-      [weakSelf removeObserver:weakSelf.SH_keyValueObserver forKeyPath:keyPath context:(__bridge void *)(identifier)];
+      @try {
+        [weakSelf removeObserver:weakSelf.SH_keyValueObserver forKeyPath:keyPath context:(__bridge void *)(identifier)];
+      }
+      @catch (NSException *exception) {
+      
+      }
+      @finally {
+      
+      }
+      
     }];
     [weakSelf.SH_keyValueObserver.blocks removeObjectForKey:identifier];
     [weakSelf SH_removeBindingsWithIdentifier:identifier];

@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/RSSwizzle" "${PODS_ROOT}/Headers/Public/SHFastEnumerationProtocols" "${PODS_ROOT}/Headers/Public/SHFoundationAdditions" "${PODS_ROOT}/Headers/Public/SHInvocation" "${PODS_ROOT}/Headers/Public/SHKeyValueObserverBlocks" "${PODS_ROOT}/Headers/Public/SHObjectUserInfo" "${PODS_ROOT}/Headers/Public/SHTestCaseAdditions"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/RSSwizzle" -isystem "${PODS_ROOT}/Headers/Public/SHFastEnumerationProtocols" -isystem "${PODS_ROOT}/Headers/Public/SHFoundationAdditions" -isystem "${PODS_ROOT}/Headers/Public/SHInvocation" -isystem "${PODS_ROOT}/Headers/Public/SHKeyValueObserverBlocks" -isystem "${PODS_ROOT}/Headers/Public/SHObjectUserInfo" -isystem "${PODS_ROOT}/Headers/Public/SHTestCaseAdditions"
+OTHER_LDFLAGS = -ObjC -l"Pods-RSSwizzle" -l"Pods-SHFastEnumerationProtocols" -l"Pods-SHFoundationAdditions" -l"Pods-SHInvocation" -l"Pods-SHKeyValueObserverBlocks" -l"Pods-SHObjectUserInfo" -framework "Foundation"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods
