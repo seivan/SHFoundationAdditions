@@ -1,3 +1,5 @@
+Deprecated please use [RxCocoa with RxSwift](https://github.com/ReactiveX/RxSwift)
+
 # SHFoundationAdditions
 
 [![CI Status](https://img.shields.io/travis/seivan/SHTransitionBlocks.svg?style=flat)](https://travis-ci.org/seivan/SHFoundationAdditions)
